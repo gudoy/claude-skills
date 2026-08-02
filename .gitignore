@@ -1,0 +1,21 @@
+# Secrets — jamais committés
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+credentials.json
+token.json
+
+# Sorties locales des skills
+*.html
+!docs/**/*.html
+digest-*.md
+
+# Système
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
